@@ -1,0 +1,41 @@
+
+.App {
+    text-align: center;
+    margin: 15px
+  }
+
+  canvas {
+    width: 100%;
+    height: auto;
+    border-radius: 8px
+  }
+
+  .App-header {
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 1.5em;
+  }
+  
+  .App-intro {
+    font-size: large;
+  }
+  
+  @keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+@font-face {
+    font-family: Gotham;
+    src: url("../fonts/Harabara\ Mais.otf") format("opentype");
+}
+body {
+    font: normal  Gothan;
+}
+
+
